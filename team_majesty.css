@@ -118,6 +118,7 @@ ul {
 .main-footer{
   position: relative;
   background: #1e2129;
+  background-image: url("assets/products/world-map.png");
 }
 
 .footer-content{
@@ -125,10 +126,10 @@ ul {
   padding: 25px 0px 05px 0px;
   overflow: hidden;
 }
-.footer-content:before{
+.footer-content:after{
   position: absolute;
   content: '';
-  background: url("assets/products/world-map.png");
+  /*background: url("assets/products/world-map.png"); */
   width: 744px;
   height: 365px;
   /* top: 50px; */
