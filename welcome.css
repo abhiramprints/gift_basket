@@ -1,0 +1,260 @@
+* {
+  font-family: "ABeeZee", sans-serif;
+}
+
+.body {
+  background: url(./assets/products/sebastian_bg.jpeg);
+  background-position: center;
+}
+
+.gift_basket {
+  background: linear-gradient(to right, #00fa9a,#66c62a, #61c2c2, #faff00);
+  -webkit-text-fill-color: transparent;
+  background-clip: unset;
+  -webkit-background-clip: text;
+}
+
+.abhiram_prints {
+  background: linear-gradient(to right,  #fd870d, #d7dbd5, #6464ae, #00db5f);
+  -webkit-text-fill-color: transparent;
+  background-clip: unset;
+  -webkit-background-clip: text;
+}
+
+.team_majesty {
+  background: linear-gradient(to right,  #b04b91, #ba2c53, #22a4ae, #bb8283);
+  -webkit-text-fill-color: transparent;
+  background-clip: unset;
+  -webkit-background-clip: text;
+}
+
+header {
+    height: 97vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.secondary-btn {
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0.7rem 1rem;
+  height: 3.7rem;
+  width: 28rem;
+  text-align: center;
+  display: block;
+  font-weight: bolder;
+  border: 1px solid #f4f4f4;
+  background: none;
+  border-radius: 2px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.secondary-btn:hover {
+  border-color: #ff7b39;
+  color: #f8f6f5;
+  background-color: #f96816;
+  text-emphasis-color: white;
+}
+
+/* .header_company_name {
+    width: fit-content;
+}
+
+.header_company_name h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.05em;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 48px;
+    color: white !important;
+    font-weight: 900;
+}
+
+.header_background_video {
+    position: fixed;
+    min-height: 100vh;
+    min-width: 100vw;
+    z-index: -1;
+    top: 0;
+    left: calc(50% - 1477px / 2);
+} */
+
+@media screen and (max-width: 470px) {
+    .gift_basket {
+        font-size: 23px;
+    }
+    .secondary-btn {
+        font-size: 21px;
+        height: 2.7rem;
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width: 285px) {
+  .gift_basket {
+      font-size: 18px;
+  }
+  .secondary-btn {
+      font-size: 21px;
+      height: 2.7rem;
+      width: 17rem;
+  }
+}
+
+.header_ride_button {
+    width: 200px;
+    height: 60px;
+    background: transparent;
+    border: 1.4px solid white;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 14px;
+    font-size: 20px;
+}
+
+.header_ride_button:hover {
+    color: #fff;
+    background: #ff7b39;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Floating Button CSS */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@-webkit-keyframes come-in {
+0% {
+  -webkit-transform: translatey(100px);
+          transform: translatey(100px);
+  opacity: 0;
+}
+30% {
+  -webkit-transform: translateX(-50px) scale(0.4);
+          transform: translateX(-50px) scale(0.4);
+}
+70% {
+  -webkit-transform: translateX(0px) scale(1.2);
+          transform: translateX(0px) scale(1.2);
+}
+100% {
+  -webkit-transform: translatey(0px) scale(1);
+          transform: translatey(0px) scale(1);
+  opacity: 1;
+}
+}
+@keyframes come-in {
+0% {
+  -webkit-transform: translatey(100px);
+          transform: translatey(100px);
+  opacity: 0;
+}
+30% {
+  -webkit-transform: translateX(-50px) scale(0.4);
+          transform: translateX(-50px) scale(0.4);
+}
+70% {
+  -webkit-transform: translateX(0px) scale(1.2);
+          transform: translateX(0px) scale(1.2);
+}
+100% {
+  -webkit-transform: translatey(0px) scale(1);
+          transform: translatey(0px) scale(1);
+  opacity: 1;
+}
+}
+
+.floating-container {
+position: fixed;
+width: 100px;
+height: 100px;
+bottom: 0;
+right: 0;
+margin: 35px 25px;
+}
+.floating-container:hover {
+height: 300px;
+}
+.floating-container:hover .floating-button {
+box-shadow: 0 10px 25px rgba(44, 179, 240, 0.6);
+-webkit-transform: translatey(5px);
+        transform: translatey(5px);
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+}
+.floating-container:hover .element-container .float-element:nth-child(1) {
+-webkit-animation: come-in 0.4s forwards 0.2s;
+        animation: come-in 0.4s forwards 0.2s;
+}
+.floating-container:hover .element-container .float-element:nth-child(2) {
+-webkit-animation: come-in 0.4s forwards 0.4s;
+        animation: come-in 0.4s forwards 0.4s;
+}
+.floating-container:hover .element-container .float-element:nth-child(3) {
+-webkit-animation: come-in 0.4s forwards 0.6s;
+        animation: come-in 0.4s forwards 0.6s;
+}
+
+.floating-container .floating-button {
+position: absolute;
+width: 65px;
+height: 65px;
+background: #2cb841;
+bottom: 0;
+border-radius: 50%;
+left: 0;
+right: 0;
+margin: auto;
+color: white;
+line-height: 65px;
+text-align: center;
+font-size: 23px;
+z-index: 100;
+box-shadow: 0 10px 25px -5px rgba(44, 179, 240, 0.6);
+cursor: pointer;
+-webkit-transition: all 0.3s;
+transition: all 0.3s;
+}
+.floating-container .float-element {
+position: relative;
+display: block;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+margin: 15px auto;
+color: white;
+font-weight: 500;
+text-align: center;
+line-height: 50px;
+z-index: 0;
+opacity: 0;
+-webkit-transform: translateY(100px);
+        transform: translateY(100px);
+}
+.floating-container .float-element .material-icons {
+vertical-align: middle;
+font-size: 16px;
+}
+.floating-container .float-element:nth-child(1) {
+background: #FF9800;
+box-shadow: 0 20px 20px -10px rgb(136, 112, 80);
+}
+.floating-container .float-element:nth-child(2) {
+background: #106ebe;
+box-shadow: 0 20px 20px -10px whitesmoke;
+}
+.floating-container .float-element:nth-child(3) {
+background: #e13c29;
+box-shadow: 0 20px 20px -10px whitesmoke;
+}
