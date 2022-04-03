@@ -14,8 +14,8 @@ Website: https://abhiramprints.github.io/gift_basket/team_majesty.html
 * Ayush Verma - Tested some modules of the web application
 * Rohit Kumar Ray - Created the presentation for the project demo and it's planning sequence
 
-💡Concept derived from ABHIRAM PRINTS
+💡Concept derived from ABHIRAM PRINTS.
 Website: https://abhiramprints.github.io/AP/
 
-👨‍💻Application developed by K Abhiram
+👨‍💻Application developed by K Abhiram.
 Website: https://abhiram2003ml.github.io/k.abhiram/
