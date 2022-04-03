@@ -100,12 +100,13 @@ header {
     }
 }
 
-@media screen and (max-width: 285px) {
+@media screen and (max-width: 295px) {
   .gift_basket {
       font-size: 18px;
   }
+
   .secondary-btn {
-      font-size: 21px;
+      font-size: 15px;
       height: 2.7rem;
       width: 17rem;
   }
