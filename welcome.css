@@ -89,12 +89,23 @@ header {
     left: calc(50% - 1477px / 2);
 } */
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 670px) {
     .gift_basket {
         font-size: 23px;
     }
     .secondary-btn {
         font-size: 21px;
+        height: 2.7rem;
+        width: 17rem;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .gift_basket {
+        font-size: 23px;
+    }
+    .secondary-btn {
+        font-size: 18px;
         height: 2.7rem;
         width: 17rem;
     }
