@@ -12,7 +12,7 @@ Team Majesty is a group of HCL TECHBEE Scholars who completed the project in the
 * Sharsti Arya - Tested some modules of the web application
 * T Saishree - Tested some modules of the web application
 * Ayush Verma - Tested some modules of the web application
-* Rohit Kumar Ray - Created the presentation for the project demo and it's planning sequence
+* Rohit Kumar Ray - Created the presentation for the project demo, Done User Acceptance Testing of Web Application and it's planning sequence
 
 #
 💡Concept derived from ABHIRAM PRINTS
