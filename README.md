@@ -7,12 +7,12 @@ Team Majesty is a group of HCL TECHBEE Scholars who completed the project in the
 <br>Website: https://abhiramprints.github.io/gift_basket/team_majesty.html
 
 🧑🏻‍🤝‍🧑🏼🧑🏻‍🤝‍🧑🏽👭Team members
-* K Abhiram - Written SRS, Daily Report and Productiveness of the team, Developed and maintained the web application
-* Tushar Prabhakar - Tested and planned the sequence of the modules of the web application
+* K Abhiram - Development, Maintainance, Hosting, JS Integration of Project Gift Basket Application, SRS Document, Daily Report and Productiveness of the team
+* Tushar Prabhakar - Tested some modules of application and Planning
 * Sharsti Arya - Tested some modules of the web application
 * T Saishree - Tested some modules of the web application
 * Ayush Verma - Tested some modules of the web application
-* Rohit Kumar Ray - Created the presentation for the project demo, Done User Acceptance Testing of Web Application and it's planning sequence
+* Rohit Kumar Ray - Created the presentation for the project demo, Done User Acceptance Testing of Web Application
 
 #
 💡Concept derived from ABHIRAM PRINTS
