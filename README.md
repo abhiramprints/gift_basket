@@ -22,7 +22,7 @@ Team Majesty is a group of HCL TECHBEE Scholars who completed the project in the
 <br>Website: https://abhiram2003ml.github.io/k.abhiram/
 
 #  
-                                        Apache License - Version 2.0, January 2004 - http://www.apache.org/licenses/
+Apache License - Version 2.0, January 2004 - http://www.apache.org/licenses/
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION:
 
